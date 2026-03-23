@@ -4,7 +4,7 @@ const router = express.Router();
 const { Merchant } = require('../models');
 const { success, error } = require('../utils/response');
 
-// 修改1111
+// 修改
 
 router.post('/login', async (req, res) => {
   try {
